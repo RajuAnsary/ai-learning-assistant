@@ -105,3 +105,6 @@ __pycache__/
 
 # Spec files (optional - keep if you want to share project planning)
 .kiro/
+
+# Documentation folder (not needed for GitHub)
+docs/
