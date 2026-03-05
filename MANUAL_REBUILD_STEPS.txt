@@ -1,0 +1,45 @@
+MANUAL FRONTEND REBUILD STEPS
+==============================
+
+The frontend folder is locked by Windows Explorer or another process.
+
+FOLLOW THESE EXACT STEPS:
+
+1. CLOSE EVERYTHING:
+   - Close all File Explorer windows
+   - Close VS Code if open
+   - Close any Command Prompt/PowerShell windows
+   - Wait 10 seconds
+
+2. OPEN NEW COMMAND PROMPT:
+   - Press Win + R
+   - Type: cmd
+   - Press Enter
+
+3. RUN THESE COMMANDS ONE BY ONE:
+
+cd /d "D:\AI-Powered Learning & Productivity Assistant for Beginner Developers\ai-learning-assistant"
+
+rmdir /s /q frontend
+
+mkdir frontend
+
+cd frontend
+
+npm create vite@latest . -- --template react
+
+npm install
+
+npm install react-router-dom
+
+npm run dev
+
+4. VERIFY:
+   - Browser should open at http://localhost:5173
+   - You should see Vite + React welcome page
+
+5. TELL ME:
+   - Once it's running, let me know
+   - I'll create all 6 pages with authentication
+
+THAT'S IT!
