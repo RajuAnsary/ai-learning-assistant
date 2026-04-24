@@ -213,7 +213,9 @@ This project is licensed under the MIT License.
 
 ## 👨‍💻 Author
 Raju Ansary
+
 GitHub: @RajuAnsary
+
 Created as part of an AWS learning project.
 
 ## 🙏 Acknowledgments
